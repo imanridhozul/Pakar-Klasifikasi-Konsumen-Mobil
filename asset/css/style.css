@@ -1,0 +1,950 @@
+
+
+	
+/* ===========================
+   ========= Headings ======== 
+   =========================== */
+h2 {font-size: 1.571em}	/* 22px */
+h3 {font-size: 1.429em}	/* 20px */
+h4 {font-size: 1.286em}	/* 18px */
+h5 {font-size: 1.143em}	/* 16px */
+h6 {font-size: 1em}		/* 14px */
+
+h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	line-height: 1.1;
+	margin-bottom: .8em;
+}
+
+/* ===========================
+   ======= Menu ====== 
+   =========================== */
+   
+.mainHeaderlogo {
+	float:left;
+	width:10%;
+	height:80px;
+	margin:-80px 0;
+	background-color:#FFF;
+	background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+	position:fixed;
+	opacity:0.9;
+	z-index:999;
+	border-bottom:1px solid #3d6eb7;
+}
+.mainHeaderlogo_isi {
+	float:left;
+	width:100%;
+	height:90%;
+	margin:-6% 0% 0% 5%;
+	background:none;
+}
+.mainHeader{
+	float:left;
+	width:70%;
+	height:80px;
+	margin:-80px 10%;
+	background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+	position:fixed;
+	opacity:0.9;
+	z-index:999;
+	border-bottom:1px solid #3d6eb7;
+}
+	.mainHeader nav ul {
+		list-style: none; 
+		margin: 0 -1.1%;
+	}
+	.mainHeader nav ul li{
+		float:left;
+		background-color:none;
+		list-style:none;
+		width:12%;
+		height:80px;
+		display:inline-block;
+		margin:4.5% 0% 0% -1%;
+	}
+	.mainHeader nav ul li a:link, a:visited {
+		display:inline;
+		height: 30px;
+		text-decoration:none;
+		font-family:calibri;
+		font-size:11pt;
+		color:darkblue;
+		padding:18px 12px;
+		text-align:center;
+	}
+	.mainHeader nav a:hover, .mainHeader nav a:active,
+	.mainHeader nav .active a:link, .mainHeader nav .active a:visited{
+		text-decoration: none;
+		color: #fff;
+		text-shadow: none !important;
+		background:#052759;
+		-webkit-transition:all 0.4s;
+		-moz-transition:all 0.4s;
+	}
+.mainHeader_lain{
+	float:left;
+	width:70%;
+	height:80px;
+	margin:-80px 10%;
+	background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+	position:fixed;
+	opacity:0.9;
+	z-index:999;
+	border-bottom:1px solid #3d6eb7;
+}
+	.mainHeader_lain nav ul {
+		list-style: none; 
+		margin: 0 3%;
+	}
+	.mainHeader_lain nav ul li{
+		float:left;
+		background-color:none;
+		list-style:none;
+		width:12%;
+		height:80px;
+		display:inline-block;
+		margin:4.5% 0% 0% -1%;
+	}
+	.mainHeader_lain nav ul li a:link, a:visited {
+		display:inline;
+		height: 30px;
+		text-decoration:none;
+		font-family:calibri;
+		font-size:11pt;
+		color:darkblue;
+		padding:18px 12px;
+		text-align:center;
+	}
+	.mainHeader_lain nav a:hover, .mainHeader_lain nav a:active,
+	.mainHeader_lain nav .active a:link, .mainHeader_lain nav .active a:visited{
+		text-decoration: none;
+		color: #fff;
+		text-shadow: none !important;
+		background:#052759;
+		-webkit-transition:all 0.4s;
+		-moz-transition:all 0.4s;
+	}
+	
+.mainHeadermenu{
+	float:left;
+	width:20%;
+	height:80px;
+	margin:-80px 80%;
+	background-color:#FFF;
+	position:fixed;
+	background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+	opacity:0.9;
+	z-index:999;
+	border-bottom:1px solid #3d6eb7;
+}
+	.mainHeadermenu nav ul {
+		list-style: none; 
+		margin: 0 auto;
+	}
+
+	.mainHeadermenu nav ul li{
+		float:left;
+		background-color:none;
+		list-style:none;
+		width:35%;
+		display:inline-block;
+		margin:16% 0% 0% -4%;
+	}
+	.mainHeadermenu nav ul li a:link, a:visited {
+		color:darkblue;
+		display: inline-block;
+		text-decoration: none;
+		padding:5px 10px;
+		border:1px solid #3d6eb7;
+		font-family:calibri;
+		font-size:11pt;
+	}
+	.mainHeadermenu nav a:hover, .mainHeadermenu nav a:active,
+	.mainHeadermenu nav .active a:link, .mainHeadermenu nav .active a:visited, .mainHeadermenu nav a:focus {
+		text-decoration: none;
+		text-shadow: none !important;
+		-webkit-transition:all 0.4s;
+		-moz-transition:all 0.4s;
+		color:#fff;
+		border-color: rgba(82, 168, 236, 0.8);
+		background: linear-gradient(to bottom, #3d6eb7, #052759);
+		box-shadow: inset 
+                0 
+                1px 1px 
+                rgba(0, 0, 0, 0.075), 
+                0 0 8px 
+                rgba(82, 168, 236, 0.6);
+		outline: 0;
+	}	
+	
+	.mainHeadermenu nav li a {
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	outline:2px #fff;
+}
+/*
+	Jika Login
+*/
+.mainHeadermenu_user{
+	float:left;
+	width:20%;
+	height:80px;
+	margin:-80px 80%;
+	background-color:#FFF;
+	position:fixed;
+	background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+	opacity:0.9;
+	z-index:999;
+	border-bottom:1px solid #3d6eb7;
+}
+	.mainHeadermenu_userbox nav ul {
+		list-style: none; 
+		margin: 0 auto;
+	}
+
+	.mainHeadermenu_userbox nav ul li{
+		float:left;
+		background-color:none;
+		list-style:none;
+		width:35%;
+		display:inline-block;
+		margin:8% 0% 0% -4%;
+	}
+	.mainHeadermenu_userbox nav ul li a:link, a:visited {
+		color:darkblue;
+		display: inline-block;
+		text-decoration: none;
+		padding:0 5px;
+		font-family:calibri;
+		font-size:11pt;
+	}
+	.mainHeadermenu_userbox nav a:hover, .mainHeadermenu_userbox nav a:active,
+	.mainHeadermenu_userbox nav .active a:link, .mainHeadermenu_userbox nav .active a:visited, .mainHeadermenu_userbox nav a:focus {
+		-webkit-transition:all 0.1s;
+		-moz-transition:all 0.1s;
+		border-color: rgba(82, 168, 236, 0.8);
+		background: linear-gradient(to bottom, #FEFEFE, #EFEFEF);
+	}	
+	
+	.mainHeadermenu_user1 img{
+				width:30px;
+				height:30px;
+				background-color:none;
+				float:left;
+				text-align:center;
+				margin:5% 5%;
+				border-radius:100px;
+				-moz-border-radius: 100px;
+				-webkit-border-radius: 100px;
+				border-bottom:1px solid #3d6eb7;
+				border-left:1px solid #3d6eb7;
+				border-right:1px solid #3d6eb7;
+				border-top:1px solid #3d6eb7;
+				position:static;
+	}
+	.menuUser{
+		color:darkblue;
+		font-family:calibri;
+		font-size:16px;
+		margin:5% 0 0 0;
+	}
+	
+	
+/* ===========================
+   ======= Content ====== 
+   =========================== */
+ /*Content index*/
+.mainContent {
+				width:100%;
+				height:600px;
+				margin:80px auto;
+				padding:0px;
+				background:url(../images/back.png);
+				background-repeat:no-repeat;
+				background-position:center;
+				overflow:hidden;
+			}
+.mainContent h1{
+				color:#f0f0f0;
+				margin:2% 13% 0 0;
+				text-align:right;
+				opacity:0.85;
+			}
+.mainContentbawah {
+				width:100;
+				height:300px;
+				background-color:#fff;
+				opacity:0.75;
+				border:1px solid #3d6eb7;
+				margin:-5.8% 0;
+				position:static;
+			}
+.formContent {
+				width:32%;
+				height:330px;
+				float:right;
+				margin:-26% 13% 0 0;
+				background-color:none;
+				overflow:hidden;
+				opacity:0.88;
+				position:static;
+			}
+.formContent h2{
+				color:#fff;
+				margin:3%;
+				text-align:center;
+				display:hidden;
+			}			
+ /*Content Cari Kerja*/
+ .cakerContent {
+				width:100%;
+				height:auto;
+				margin:80px auto;
+			}
+.cakerContent h2{
+	font-family:arial;
+	color:darkblue;
+	font-size:14pt;
+}
+.cakerContentsidebar {
+				width:32%;
+				height:auto;
+				margin:0 8%;
+				background-color:#c6c6c6;
+				float:left;
+				position:fixed;
+			}
+.cakerContentsidebar  h4{
+	font-family:arial;
+	color:#fff;
+}
+.cakerContentsidebarkat {
+				width:100%;
+				height:auto;
+				background-color:none;
+				float:left;
+				position:static;
+				border-top:1px solid #fff;
+				padding:20px 0;
+			}
+.cakerContentmainbar {
+				width:50%;
+				height:auto;
+				position:absolute;
+				background-color:none;
+				float:left;
+				margin:-0.5% 41%;
+			}
+.cakerContentmainbarisi {
+				width:100%;
+				height:auto;
+				background-color:#fff;
+				float:right;
+				margin:10px 0 0 0;
+				box-shadow: inset 
+					0 
+					2px 2px 
+					rgba(0, 0, 0, 0.075), 
+					0 0 2px 
+					rgba(0, 0, 0, 0.6);
+				outline: 0;
+				font-family:arial;
+				font-size:11pt;
+			}
+.cakerContentmainbarisi_user {
+				width:100%;
+				height:auto;
+				background-color:#fff;
+				float:right;
+				margin:5px 0 0 0;
+				padding:0 0 20px 0;
+				box-shadow: inset 
+					0 
+					2px 2px 
+					rgba(0, 0, 0, 0.075), 
+					0 0 2px 
+					rgba(0, 0, 0, 0.6);
+				outline: 0;
+			}
+.cakerContentmainbarisi_peru{
+				width:100%;
+				height:auto;
+				background-color:#fff;
+				float:right;
+				margin:5px 0 0 0;
+				box-shadow: inset 
+					0 
+					2px 2px 
+					rgba(0, 0, 0, 0.075), 
+					0 0 2px 
+					rgba(0, 0, 0, 0.6);
+				outline: 0;
+			}
+.cakerContentmainbarisi_tgl {
+				width:75%;
+				height:20px;
+				background-color:blue;
+				float:right;
+				margin:5px 0 0 5px;
+				font-family:calibri;
+				color:#000;
+				font-size:12px;
+			}
+.cakerContentmainbarisi_tgljudul {
+				width:90%;
+				height:20px;
+				background-color:;
+				float:left;
+				margin:2% 5%;
+				font-family:arial;
+				color:#000;
+				font-size:12px;
+				border-bottom:1px solid #ccc;
+				text-align:center;
+			}
+.cakerContentmainbarisi_tgljudul-peru {
+				width:90%;
+				height:20px;
+				background-color:none;
+				float:left;
+				margin:2% 5%;
+				font-family:arial;
+				color:blue;
+				font-size:11pt;
+				border-bottom:1px solid #ccc;
+				text-align:center;
+			}
+.cakerContentmainbarisi_judul {
+				width:75%;
+				height:auto;
+				background-color:red;
+				float:right;
+				margin:5px 0 0 5px;
+				font-family:arial;
+				color:darkblue;
+				font-size:16pt;
+			}
+.cakerContentmainbarisi_judul  h2{
+				font-family:arial;
+				color:darkblue;
+				font-size:14pt;
+			}
+.cakerContentmainbarisi_bidang {
+				width:75%;
+				height:40px;
+				background-color:grey;
+				float:right;
+				margin:5px 0 0 5px;
+			}
+.cakerContentmainbarisi_bidang-peru {
+				width:75%;
+				height:auto;
+				background-color:#none;
+				float:left;
+				margin:0 0 0 5px;
+				font-family:arial;
+				font-size:11pt;
+			}
+.cakerContentmainbarisi_bidang h3{
+				margin:0% 0%;
+				font-family:arial;
+				color:#000;
+				font-size:15pt;
+}
+			
+.cakerContentmainbarisi_judul h2 {
+				color:#3d6eb7;
+				font-family:tahoma;
+			}
+.cakerContentmainbarisi_alm {
+				width:75%;
+				height:auto;
+				background-color:green;
+				float:right;
+				margin:0 0 0 5px;
+			}
+.cakerContentmainbarisi_alm-peru {
+				width:75%;
+				height:30px;
+				background-color:#none;
+				float:left;
+				margin:15px 0 0 5px;
+			}
+.cakerContentmainbarisi_alm-peru2 {
+				width:100%;
+				height:30px;
+				background-color:#none;
+				float:left;
+				margin:15px 0 0 5px;
+			}
+.cakerContentmainbarisi_alm-user {
+				width:25%;
+				height:30px;
+				background-color:#none;
+				float:right;
+				margin:-30px 5% 0 0%;
+			}
+.cakerContentmainbarisi_logo{
+				width:23%;
+				height:140px;
+				background-color:yellow;
+				float:left;
+				margin:-20.5% 5px 5px 3%;
+				text-align:center;
+			}
+/*content Loker */
+.lokerContent {
+				width:100%;
+				height:auto;
+				margin:80px auto;
+				background-color:none;
+				overflow:hidden;
+				position:static;
+			}
+.lokerContentsidebar {
+				width:28%;
+				height:auto;
+				margin:0 12%;
+				background-color:#fff;
+				float:left;
+				font-family:arial;
+				font-size:16pt;
+				color:darkblue;
+				text-align:center;
+			}
+
+.lokerContentsidebaratas1 {
+				width:100%;
+				height:150px;
+				background-color:none;
+				float:left;
+				position:static;
+				z-index:999;
+			}
+.lokerContentsidebaratas2 {
+				width:28%;
+				height:auto;
+				float:left;
+				margin:13% -40%;
+				background-color:#fff;
+				position:static;
+				font-family:arial;
+				font-size:14px;
+				color:#000;
+				position:static;
+			}
+.lokerContentsidebaratas2_alm {
+				width:100%;
+				height:auto;
+				float:left;
+				margin:0% 0%;
+				background-color:#fff;
+				position:static;
+				font-family:arial;
+				font-size:14px;
+				color:#000;
+				position:static;
+				border-top:1px solid #ccc;
+				text-align:center;
+			}
+
+.lokerContentsidebarisi_logo img{
+				width:120px;
+				height:120px;
+				background-color:none;
+				float:left;
+				text-align:center;
+				margin:5% 35%;
+				border-radius:100px;
+				-moz-border-radius: 100px;
+				-webkit-border-radius: 100px;
+				border-bottom:1px solid #3d6eb7;
+				border-left:1px solid #3d6eb7;
+				border-right:1px solid #3d6eb7;
+				border-top:1px solid #3d6eb7;
+				position:static;
+			}
+.lokerContentsidebarisi_logo-profil img{
+				width:120px;
+				height:120px;
+				background-color:none;
+				float:left;
+				text-align:center;
+				margin:5% 40%;
+				border-radius:100px;
+				-moz-border-radius: 100px;
+				-webkit-border-radius: 100px;
+				border-bottom:1px solid #3d6eb7;
+				border-left:1px solid #3d6eb7;
+				border-right:1px solid #3d6eb7;
+				border-top:1px solid #3d6eb7;
+				position:static;
+			}
+.lokerContentmainbar {
+				width:50%;
+				height:auto;
+				position:absolute;
+				background-color:none;
+				float:left;
+				margin:0 41%;
+			}
+.lokerContentmainbarisi_judul {
+				width:100%;
+				height:50px;
+				position:static;
+				background-color:#f0f0f0;
+				float:left;
+			}
+.lokerContentmainbarisi_judul-user {
+				width:100%;
+				height:50px;
+				position:static;
+				background-color:#fff;
+				float:left;
+			}
+.lokerContentmainbarisi_head-peru {
+				width:100%;
+				height:40px;
+				position:static;
+				background-color:#fff;
+				float:left;
+				margin-bottom:1px;
+			}
+.lokerContentmainbarisi_judul-user h3 {
+				font-family:tahoma;
+				color:darkblue;
+				text-align:center;
+			}
+.lokerContentmainbarisi_judul h3 {
+				font-family:tahoma;
+				color:darkblue;
+				text-align:center;
+			}
+.lokerContentmainbarisi_juduld {
+				width:100%;
+				height:30px;
+				position:static;
+				background-color:none;
+				border-bottom:1px solid #ccc;
+				float:left;
+				margin:0;
+			}
+.lokerContentmainbarisi_juduld-profil {
+				width:100%;
+				height:30px;
+				position:static;
+				background-color:none;
+				border-bottom:1px solid #ccc;
+				float:left;
+				margin:0;
+			}
+.lokerContentmainbarisi_juduld h6{
+				font-family:arial;
+				color:blue;
+				margin:1.5% 2%;
+			}
+.lokerContentmainbarisi_juduld-profil h6{
+				font-family:arial;
+				color:blue;
+				margin:6% 0% 0 2%;
+			}
+.lokerContentmainbarisi_syarat {
+				width:100%;
+				height:auto;
+				position:static;
+				background-color:#fff;
+				float:left;
+				margin:1% 0;
+			}
+.lokerContentmainbarisi_kat {
+				width:100%;
+				height:auto;
+				position:static;
+				background-color:#fff;
+				float:left;
+				margin:1% 0;
+			}
+.lokerContentmainbarisi_gaji {
+				width:100%;
+				height:auto;
+				position:static;
+				background-color:#fff;
+				float:left;
+				margin:1% 0;
+			}
+.lokerContentmainbarisi_desk {
+				width:100%;
+				height:auto;
+				position:static;
+				background-color:#fff;
+				float:left;
+				margin:1% 0;
+			}
+.lokerContentmainbarisi_jml{
+				width:100%;
+				height:auto;
+				position:static;
+				background-color:#fff;
+				float:left;
+				margin:1% 0;
+			}	
+.text_loker{
+	font-family:calibri;
+	font-size:13pt;
+	color:#000;
+	margin:7% 2% 2% 1%;
+}
+.text_loker-profil{
+	font-family:calibri;
+	font-size:13pt;
+	color:#000;
+	margin:6% 0% 3% 0%;
+	border-bottom:1px solid #ccc;
+}
+
+/*Halaman Tentang */
+.tentangContent {
+				width:80%;
+				height:auto;
+				margin:80px auto;
+				background-color:#fff;
+				opacity:0.85;
+				position:static;
+}
+/*Halaman Kontak */
+.kontakContent {
+				width:80%;
+				height:450px;
+				margin:80px auto;
+				background-color:#fff;
+				opacity:0.85;
+				position:static;
+}
+
+/* ===========================
+   ======= Form ====== 
+   =========================== */		
+
+
+.formContent input[type=submit],
+.formContent input[type=reset] {
+    background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    border: 1px solid #999;
+    margin: 2% 3% 0 15%;
+    padding: 5px;
+    width: 25%;
+	height:40px;
+}
+
+.formContent input[type=submit]:hover,
+.formContent input[type=reset]:hover {
+    cursor: pointer;
+	background: linear-gradient(to bottom, #0044CC, #191970);
+}
+
+.formContent input[type=submit]:active,
+.formContent input[type=reset]:active {
+    background: #D4D4D4;
+	background: linear-gradient(to bottom, #0044CC, #191970);
+}
+
+.formContent input[type=submit] {
+    background: linear-gradient(to bottom, #0088CC, #0044CC);
+    border: 1px solid #0088CC;
+    color: #FFF;
+	float:right;
+}
+
+.formContent input[type=submit]:active {
+    background: #0044CC;
+}
+
+.lokerContentmainbar input[type=submit]{
+    background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    border: 1px solid #999;
+    margin: 4px 10px;
+    padding: 5px;
+    width: 100%;
+	height:40px;
+	margin:0 0 0 2%;
+}
+.lokerContentmainbar textarea{
+    margin: 4px 10px;
+    padding: 5px;
+    width: 100%;
+	height:40px;
+	margin:0;
+}
+.lokerContentmainbar input[type=submit]:hover {
+    cursor: pointer;
+	background: linear-gradient(to bottom, #0044CC, #191970);
+}
+
+.lokerContentmainbar input[type=submit]:active{
+    background: #D4D4D4;
+	background: linear-gradient(to bottom, #0044CC, #191970);
+}
+
+.lokerContentmainbar input[type=submit] {
+    background: linear-gradient(to bottom, #0088CC, #0044CC);
+    border: 1px solid #0088CC;
+    color: #FFF;
+	float:right;
+}
+
+.lokerContentmainbar input[type=submit]:active {
+    background: #0044CC;
+}
+
+.cakerContentmainbarisi textarea{
+    margin: 4px 10px;
+    padding: 5px;
+    width: 100%;
+	height:40px;
+	margin:0;
+}
+.cakerContentmainbarisi select{
+    margin: 4px 10px;
+    padding: 5px;
+    width: 100%;
+	height:30px;
+	margin:0;
+}
+.cakerContentmainbarisi input[type=submit] {
+    background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    border: 1px solid #999;
+    margin: 0% 80% 2% 0%;
+    padding: 5px;
+    width: 20%;
+	height:30px;
+	color:#fff;
+	float:left;
+}
+
+.cakerContentmainbarisi input[type=reset] {
+    background: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    border: 1px solid #999;
+    margin: 0% 16% 2% 0%;
+    padding: 5px;
+    width: 20%;
+	height:30px;
+	color:#fff;
+	float:left;
+}
+
+.cakerContentmainbarisi input[type=submit]:hover,
+.cakerContentmainbarisi input[type=reset]:hover {
+    cursor: pointer;
+	background: linear-gradient(to bottom, #0044CC, #191970);
+}
+
+.cakerContentmainbarisi input[type=submit]:active,
+.cakerContentmainbarisi input[type=reset]:active {
+    background: #D4D4D4;
+	background: linear-gradient(to bottom, #0044CC, #191970);
+}
+
+.cakerContentmainbarisi input[type=submit],
+.cakerContentmainbarisi input[type=reset] {
+    background: linear-gradient(to bottom, #0088CC, #0044CC);
+    border: 1px solid #0088CC;
+    color: #FFF;
+	float:right;
+}
+
+.cakerContentmainbarisi input[type=submit]:active {
+    background: #0044CC;
+}
+
+.none {
+	text-decoration:none;
+}
+
+.text1{
+	color:#fff;
+	text-align:justify;
+	font-size:12px;
+	margin:1% 4%;
+}
+
+/* ===========================
+   ======= Footer====== 
+   =========================== */	
+.mainFooter{
+	width:100%;
+	height:auto;
+	background:#444;
+	position:static;
+	float:left;
+	margin:-5% 0 0 0;
+	color:#fff;
+	font-family:calibri;
+	font-size:12px;
+	text-decoration:none;
+}   
+.mainFooter a{
+	color:#fff;
+	font-family:calibri;
+	font-size:12px;
+	text-decoration:none;
+} 
+.mainFooter a:hover{
+	text-decoration:underline;
+} 
+.mainFooter table{
+	margin:3% 0 1% 10%;
+} 
+.mainFooter2{
+	width:200%;
+	height:auto;
+	background:#444;
+	position:static;
+	float:left;
+	margin:5% 0 0 -82%;
+	color:#fff;
+	font-family:calibri;
+	font-size:12px;
+	text-decoration:none;
+}   
+.mainFooter2 a{
+	color:#fff;
+	font-family:calibri;
+	font-size:12px;
+	text-decoration:none;
+} 
+.mainFooter2 a:hover{
+	text-decoration:underline;
+} 
+.mainFooter2 table{
+	margin:3% 0 1% 10%;
+} 
+.mainFooter3{
+	width:100%;
+	height:auto;
+	background:#444;
+	position:static;
+	float:left;
+	margin:5% 0 0 0;
+	color:#fff;
+	font-family:calibri;
+	font-size:12px;
+	text-decoration:none;
+}   
+.mainFooter3 a{
+	color:#fff;
+	font-family:calibri;
+	font-size:12px;
+	text-decoration:none;
+} 
+.mainFooter3 a:hover{
+	text-decoration:underline;
+} 
+.mainFooter3 table{
+	margin:3% 0 1% 10%;
+} 
+hr{
+	width:80%;
+	color:#fff;
+}
