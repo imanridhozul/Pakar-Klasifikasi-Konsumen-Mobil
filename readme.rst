@@ -1,7 +1,9 @@
 web sistem pakar dengan metode c45 pohon keputusan
 db --> pakarai
-enjoy!!! ;)
-(https://1.bp.blogspot.com/-9X3TZ02c0uU/XvxqwkuxxZI/AAAAAAAABEM/0rwiqFbkdTI-gyBrwx-pvrtqhf40LVVdgCLcBGAsYHQ/s320/pakari1.png)
+enjoy!!! ;)<br>
+
+![img](https://1.bp.blogspot.com/-9X3TZ02c0uU/XvxqwkuxxZI/AAAAAAAABEM/0rwiqFbkdTI-gyBrwx-pvrtqhf40LVVdgCLcBGAsYHQ/s320/pakari1.png)
+<br>
 (https://1.bp.blogspot.com/-K34_HhweNYU/XvxqxAS5XSI/AAAAAAAABEQ/NitR-5R9xjUmoXxBQlLMEz_LfXNr9EsXQCLcBGAsYHQ/s320/pakr2.png)
 (https://1.bp.blogspot.com/-YQpS0o7uXqg/XvxqwVXhipI/AAAAAAAABEI/3bvOT55g67UvmSyqFUtx6lzy6PfOOholACLcBGAsYHQ/s320/8.png) 
 (https://1.bp.blogspot.com/-IZze3Hx82aM/Xvxqv4LCxKI/AAAAAAAABEA/dyJqKA5Nv2gZh_8vBaCuAbYQ3O6kmDgpACLcBGAsYHQ/s320/6.png) 
